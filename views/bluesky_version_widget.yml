@@ -1,0 +1,8 @@
+type: scrollbox
+widget_id: bluesky-version-scrollbox-widget
+api_url: /module/bluesky/get_list/version
+i18n_title: bluesky.widget.version_title
+icon: fa-laptop
+listing_link: /show/listing/bluesky/bluesky
+search_key: label
+badge: count

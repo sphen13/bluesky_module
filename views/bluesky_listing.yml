@@ -1,0 +1,10 @@
+i18n_title: bluesky.listing.title
+table:
+    -   column: machine.computer_name
+        i18n_header: listing.computername
+        formatter: clientDetail
+        tab_link: bluesky
+    -   column: reportdata.serial_number
+        i18n_header: serial
+    -   column: bluesky.version
+        i18n_header: bluesky.column.version

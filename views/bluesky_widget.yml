@@ -1,0 +1,14 @@
+type: button
+widget_id: bluesky-scrollbox-widget
+api_url: /module/bluesky/get_stats
+i18n_title: bluesky.widget.title
+icon: fa-cloud
+listing_link: /show/listing/bluesky/bluesky
+search_key: label
+badge: count
+buttons:
+  - label: "total"
+    i18n_label: bluesky.widget.total
+    class: btn-info 
+    hide_when_zero: false
+    search_component: Serial
