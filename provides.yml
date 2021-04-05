@@ -1,0 +1,17 @@
+client_tabs:
+    bluesky:
+        view: bluesky_tab
+        i18n: bluesky.title
+listings:
+    bluesky:
+        view: bluesky_listing
+        i18n: bluesky.listing.title
+reports:
+    bluesky:
+        view: bluesky_report
+        i18n: bluesky.report.title
+widgets:
+    bluesky:
+        view: bluesky_widget
+    bluesky_version:
+        view: bluesky_version_widget
