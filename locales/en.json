@@ -1,0 +1,18 @@
+{
+    "column": {
+        "version": "Version"
+    },
+    "listing": {
+        "title": "BlueSky"
+    },
+    "report": {
+        "title": "BlueSky"
+    },
+    "title": "BlueSky",
+    "total": "total",    
+    "widget": {
+        "title": "BlueSky",
+        "version_title": "Version",
+   		"total": "Total"      
+    }
+}
