@@ -4,7 +4,7 @@
 > April 5, 2021  
 > Alex Narvey / Precursor.ca  
 
-![BlueSky Module Report](BlueSky_Module.png)
+![BlueSky Module Report](BlueSky_module.png)
 
 Reports on BlueSky installs.
 (see: https://github.com/sphen13/BlueSky)
