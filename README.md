@@ -1,7 +1,7 @@
 # BlueSky module
 
-> v. 1.0.0 
-> April 5, 2021  
+> v. 1.0.1 
+> July 6, 2021  
 > Alex Narvey / Precursor.ca  
 
 ![BlueSky Module Report](BlueSky_module.png)
@@ -22,6 +22,7 @@ The output file is removed if the preferences file no longer exists so that new 
 
 ## Updates
 
+* July 6, 2021 Version 1.0.1 Correct test for -f file instead of -d directory. 
 * April 5, 2021 Version 1.0 
 
 ## Contributors
