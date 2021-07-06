@@ -11,7 +11,7 @@ SERIAL=$(/usr/libexec/PlistBuddy -c "print :'serial'" /var/bluesky/settings.plis
 VERSION=$(/usr/libexec/PlistBuddy -c "print :'version'" /var/bluesky/settings.plist)
 
 # Test for BlueSky settings.plist exists
-if [ -d "/var/bluesky/settings.plist" ]; then
+if [ -f "/var/bluesky/settings.plist" ]; then
 
 # Output data here
 echo "version${SEPARATOR}$VERSION" > ${OUTPUT_FILE}
