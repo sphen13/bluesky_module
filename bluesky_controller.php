@@ -1,10 +1,10 @@
-<?php 
+<?php
 
 /**
  * bluesky class
  *
  * @package munkireport
- * @author 
+ * @author
  **/
 class Bluesky_controller extends Module_controller
 {
@@ -13,7 +13,17 @@ class Bluesky_controller extends Module_controller
         // Store module path
         $this->module_path = dirname(__FILE__);
     }
-	
+
+    /**
+    * Default method
+    *
+    * @author AvB
+    **/
+    public function index()
+    {
+        echo "You've loaded the bluesky module!";
+    }
+
     /**
      * Get bluesky information for serial_number
      *
@@ -64,4 +74,4 @@ class Bluesky_controller extends Module_controller
             	->toLabelcount()
        );
     }
-} 
+}
