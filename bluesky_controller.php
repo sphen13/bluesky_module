@@ -8,7 +8,7 @@
  **/
 class Bluesky_controller extends Module_controller
 {
-	    function __construct()
+	  public function __construct()
     {
         // Store module path
         $this->module_path = dirname(__FILE__);
@@ -16,8 +16,6 @@ class Bluesky_controller extends Module_controller
 
     /**
     * Default method
-    *
-    * @author AvB
     **/
     public function index()
     {
@@ -25,10 +23,10 @@ class Bluesky_controller extends Module_controller
     }
 
     /**
-     * Get bluesky information for serial_number
-     *
-     * @param string $serial serial number
-     **/
+    * Get bluesky information for serial_number
+    *
+    * @param string $serial serial number
+    **/
     public function get_data($serial_number = '')
     {
         jsonView(
@@ -54,12 +52,12 @@ class Bluesky_controller extends Module_controller
         );
     }
 
-   /**
-     * Get  stats
-     *
-     * @return void
-     * @author
-     **/
+    /**
+    * Get  stats
+    *
+    * @return void
+    * @author
+    **/
     public function get_stats($hours = 24)
     {
        $timestamp = time() - 60 * 60 * (int) (24 * 7);
